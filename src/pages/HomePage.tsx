@@ -33,8 +33,8 @@ const features = [
 ];
 
 const stats = [
-  { value: "8+", label: "Courses" },
-  { value: "100+", label: "Questions" },
+  { value: "15+", label: "Courses" },
+  { value: "1000+", label: "Questions" },
   { value: "24+", label: "Universities" },
   { value: "3", label: "Exam Types" },
 ];
