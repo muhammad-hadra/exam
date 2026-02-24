@@ -21,9 +21,9 @@ import { ExamTimer } from "@/components/ExamTimer";
 import { getCourse, getQuestions, type Question, type ExamType } from "@/data/courses";
 
 const examConfig: Record<ExamType, { questions: number; time: number | null; showFeedback: boolean }> = {
-  quiz: { questions: 10, time: null, showFeedback: true },
-  mid: { questions: 15, time: 60, showFeedback: false },
-  final: { questions: 15, time: 120, showFeedback: false },
+  quiz: { questions: 5, time: null, showFeedback: true },
+  mid: { questions: 30, time: 60, showFeedback: false },
+  final: { questions: 60, time: 120, showFeedback: false },
 };
 
 export default function ExamPage() {

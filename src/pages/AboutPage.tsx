@@ -1,14 +1,7 @@
 import { motion } from "framer-motion";
 import { CheckCircle2, Target, Users, Award, BookOpen, MessageCircle } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-/*
-const team = [
-  { name: "Dr. Abebe Kebede", role: "Academic Director", icon: "👨‍🏫" },
-  { name: "Tigist Haile", role: "Content Manager", icon: "👩‍💼" },
-  { name: "Yonas Tadesse", role: "Lead Developer", icon: "👨‍💻" },
-  { name: "Sara Mulugeta", role: "Student Success", icon: "👩‍🎓" },
-];
-*/
+
 const values = [
   {
     icon: Target,
@@ -93,8 +86,8 @@ export default function AboutPage() {
                   <div className="grid grid-cols-2 gap-6">
                     {[
                       { value: "1000+", label: "Students Helped" },
-                      { value: "100+", label: "Practice Questions" },
-                      { value: "8+", label: "Courses" },
+                      { value: "1000+", label: "Practice Questions" },
+                      { value: "15+", label: "Courses" },
                       { value: "24+", label: "Universities" },
                     ].map((stat) => (
                       <div key={stat.label} className="text-center">
